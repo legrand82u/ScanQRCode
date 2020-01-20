@@ -1,6 +1,7 @@
-import QrScanner from 'qr-scanner';
 
-// QrScanner.WORKER_PATH = './qr-scanner-worker.min.js'
+import QrScanner from './qr-scanner.min.js';
+
+QrScanner.WORKER_PATH = './qr-scanner-worker.min.js';
 // Set constraints for the video stream
 var constraints = {video: {facingMode: "environment"}, audio: false};// Define constants
 const cameraView = document.querySelector("#camera--view"),
