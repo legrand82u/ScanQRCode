@@ -1,0 +1,15 @@
+{
+  "name": "lectureqrcode",
+  "version": "1.0.0",
+  "description": "La Lecture de QRCode",
+  "main": "index.js",
+  "dependencies": {
+    "qr-scanner": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Théo LEGRAND",
+  "license": "ISC"
+}
